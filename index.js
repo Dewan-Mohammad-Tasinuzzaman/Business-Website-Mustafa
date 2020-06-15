@@ -1,13 +1,17 @@
-//Smoothe Scroll
-// A $( document ).ready() block.
-$(document).ready(function () {
-    $("body").niceScroll({
-        scrollspeed: 400,
-        cursorcolor: "#14ffec",
-        cursorwidth: "10px"
-    });
-});
+if (Modernizr.touch) {
 
+}
+else {
+    //Smoothe Scroll
+    // A $( document ).ready() block.
+    $(document).ready(function () {
+        $("body").niceScroll({
+            scrollspeed: 400,
+            cursorcolor: "#14ffec",
+            cursorwidth: "10px"
+        });
+    });
+}
 
 //SCROLL BEHAVIOUR SMOOTHE
 $(document).ready(function () {
