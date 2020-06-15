@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Important part -->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/icon-font.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+        <!-- For NiceScroll ScrollBar -->
+        <style>
+            #ascrail2000 {
+                width: 18px;
+                z-index: auto;
+                cursor: default;
+                position: fixed;
+                top: 0px;
+                height: 100%;
+                right: 0px;
+                opacity: 0;
+                background-color: #212121;
+            }
+            /* //Disable Horizontal Scroll */
+            #ascrail2000-hr {
+                display: none;
+            }
+        </style>
+        
+        <title>Mustafa Enam | Event Manager | Tasin Zaman</title>
+    </head>
+    <body>
+
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+
+            <div class="navigation__background">&nbsp;</div>
+
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#section-about" class="navigation__link"><span>01</span> About Us</a></li>
+                    <li class="navigation__item"><a href="#section-features" class="navigation__link"><span>02</span> Features</a></li>
+                    <li class="navigation__item"><a href="#section-tours" class="navigation__link"><span>03</span> Popular Plans</a></li>
+                    <li class="navigation__item"><a href="#section-stories" class="navigation__link"><span>04</span> Their Stories</a></li>
+                    <li class="navigation__item"><a href="#section-book" class="navigation__link"><span>05</span> Hire Now</a></li>
+                </ul class="navigation__list">
+            </nav>
+        </div>
+
+        <header class="header">
+            
+            <div class="header__logo-box">
+                <img src="img/logo-white.svg"alt="Logo" class="header__logo rellax" data-rellax-speed="3">
+            </div>
+
+            <div class="header__text-box">
+                <div class="heading--parallax rellax" data-rellax-speed="3">
+                <h1 class="heading-primary">
+                    <span class="heading-primary--main">Mustafa</span>
+                    <span class="heading-primary--sub">An Event Manager</span>
+                </h1>
+
+                <a href="#section-tours" class="btn btn--white btn--animated scroll-btn">
+                    Hire Our Services
+                </a>
+                </div>
+            </div>
+
+        </header>
+
+        <main>
+
+            <section class="section-about" id="section-about">
+                
+                <div class="u-center-text u-margin-bottom-big rellax" data-rellax-speed="-.3" data-rellax-percentage=".1"> <!-- This is a simple, re-usable, utility class(es). -->
+                    <h2 class="heading-secondary heading-secondary--heroadjust">
+                        WE PLAN EVENTS WORTH CELEBRATING
+                    </h2>
+                </div>
+
+                <div class="row rellax" data-rellax-speed="-1" data-rellax-percentage=".4">
+                
+                    <div class="col-1-of-2">
+                        
+                        <h2 class="heading-tertiary u-margin-bottom-small">ARRANGE ANYTHING ALMOST ANYWHERE</h2>
+                        <p class="paragraph">
+                            We plan everything from birthday parties and weddings to huge corporate and social gatherings. Every detail is discussed
+                            carefully. We believe in precision and deliver exactly what your heart imagines.
+                        </p>
+
+                        <h2 class="heading-tertiary u-margin-bottom-small">AFFORDABLE AND SECURE</h2>
+                        <p class="paragraph">
+                            We carefully discuss the budget with you and make sure you know exactly where your money is headed. Not a single penny
+                            is misallocated.
+                        </p>
+
+                        <a href="#" class="btn-text">
+                            Learn more &rarr;
+                        </a>
+                    
+                    </div>
+                    <div class="col-1-of-2">
+                        
+                        <div class="composition">
+
+                            <!-- RESPONSIVE IMAGES -- Resolution Switching -->
+                            <img srcset="img/wedding2.jpg 300w, img/wedding2.jpg 100w"
+                                sizes="(max-width: 56.25em) 20vh, (max-width: 37.5em) 30vw, 300px"
+                                alt="Photo 1"
+                                class="composition__photo composition__photo--p1"
+                                src="img/wedding2.jpg"
+                            >
+                            <img srcset="img/bday1.jpg 300w, img/bday1.jpg 100w"
+                                sizes="(max-width: 56.25em) 20vh, (max-width: 37.5em) 30vw, 300px" 
+                                alt="Photo 2"
+                                class="composition__photo composition__photo--p2" 
+                                src="img/bday1.jpg"
+                            >
+                            <img srcset="img/corpmeeting1.jpg 300w, img/corpmeeting1.jpg 100w"
+                                sizes="(max-width: 56.25em) 20vh, (max-width: 37.5em) 30vw, 300px" 
+                                alt="Photo 3"
+                                class="composition__photo composition__photo--p3" 
+                                src="img/corpmeeting1.jpg"
+                            >
+                            <!--
+                            <img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
+                            <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
+                            <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
+                            -->
+                        </div>
+                    
+                    </div>
+                
+                </div>
+           
+            </section>
+
+            <section class="section-features" id="section-features">
+                
+                <div class="row rellax" data-rellax-speed="-.7" data-rellax-percentage=".6">
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-world"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">We're Everywhere</h3>
+                            <p class="feature-box__text">
+                                We are available in every corner of the globe as a leading team.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-compass"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">We're A compass</h3>
+                            <p class="feature-box__text">
+                                Every event is a success once we start giving our directions.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-map"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">We're A Map</h3>
+                            <p class="feature-box__text">
+                                We sit and map out the entire process and keep you informed every step.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-heart"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">We're Loved</h3>
+                            <p class="feature-box__text">
+                                We make people fall in love with us but more importantly with our work.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-tours" id="section-tours">
+                <div class="u-center-text u-margin-bottom-big rellax" data-rellax-speed="2" data-rellax-percentage=".7">
+                    <!-- This is a simple, re-usable, utility class(es). -->
+                    <h2 class="heading-secondary">
+                        Most pupular plans
+                    </h2>
+                </div>
+
+                <div class="row rellax" data-rellax-speed="2" data-rellax-percentage=".5">
+                
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--1">
+
+                                </div>
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--1">The grand wedding</span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>1 day event</li>
+                                        <li>Custom menu</li>
+                                        <li>2 bands of your choice</li>
+                                        <li>500 pound cake</li>
+                                        <li>Photographers arranged</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-1">
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <div class="card__price-only">Only</div>
+                                        <div class="card__price-value">$20,000</div>
+                                    </div>
+                                    <a href="#popup" class="btn btn--pink">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--2">
+                        
+                                </div>
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--2">Party and concert</span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>1 day event</li>
+                                        <li>Drinks served</li>
+                                        <li>9 bands of your choice</li>
+                                        <li>Tight security</li>
+                                        <li>Pool included</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-2">
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <div class="card__price-only">Only</div>
+                                        <div class="card__price-value">$9,800</div>
+                                    </div>
+                                    <a href="#popup" class="btn btn--white">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--3">
+                        
+                                </div>
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--3">Corporate gathering</span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>1 day event</li>
+                                        <li>Custom menu & wine</li>
+                                        <li>Private casino experience</li>
+                                        <li>Top notch security</li>
+                                        <li>Golf pit included</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-3">
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <div class="card__price-only">Only</div>
+                                        <div class="card__price-value">$11,000</div>
+                                    </div>
+                                    <a href="#popup" class="btn btn--red">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+
+                <div class="u-center-text u-margin-top-huge">
+                    <a href="#" class="btn btn--green">View more plans</a>
+                </div>
+            </section>
+
+            <section class="section-stories" id="section-stories">
+                <!-- ADDING VIDEO -->
+                <!-- YOU CAN GET FREE VIDEOS ON SITE CALLED "COVERR" -->
+                <div class="bg-video rellax"data-rellax-speed="-2"data-rellax-percentage=".5">
+                    <video class="bg-video__content" autoplay muted loop>
+                        <source src="img/video.mp4" type="video/mp4">
+                        <source src="img/video.webm" type="video/webm">
+                            Your browser is not supported!
+                    </video>
+                </div>
+                <div class="u-center-text u-margin-bottom-big rellax" data-rellax-speed="1.05" data-rellax-percentage=".5">
+                    <h2 class="heading-secondary heading-secondary--dark">
+                        We've made people genuinely happy
+                    </h2>
+                </div>
+
+                <div class="row rellax" data-rellax-speed="1.3" data-rellax-percentage=".5">
+                    <div class="story">
+                    <!-- Figure is used when we want to have a photo and a caption over it -->
+                    <figure class="story__shape">
+                        <img src="img/tasin-zaman.jpg" alt="person on a tour" class="story__img">
+                        
+                        <!-- A special child element of the figure element. -->
+                        <figcaption class="story__caption">Tasin Zaman</figcaption>
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading__tertiary u-margin-bottom-small">Their service was absolute garbage</h3>
+                        <p>
+                            I had put my faith in them. The CEO of their company was one of my closest friends, but after this, it's safe to say we're no longer friends. I urge everyone to not make the same mistake I did. Do Not hire them. Unless you want thousands of dollars to go down the drain, then go right ahead.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row u-padding-top-big">
+                    <div class="story">
+                        <!-- Figure is used when we want to have a photo and a caption over it -->
+                        <figure class="story__shape">
+                            <img src="img/kazimuzzy.jpg" alt="person on a tour" class="story__img">
+                
+                            <!-- A special child element of the figure element. -->
+                            <figcaption class="story__caption">Kazi Muztabir</figcaption>
+                        </figure>
+                        <div class="story__text">
+                            <h3 class="heading__tertiary u-margin-bottom-small">Will return again for my next marriage!</h3>
+                            <p>
+                                I have always had a vivid imagination and I proudly say I make the most bizzare scenarios in my head. Ones that are too good to ever be true. But I was proven wrong on my wedding, thanks to Mustafa and team. It was exactly how I imagined. All my exes watching me getting married. Loved it.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="u-center-text u-margin-top-huge">
+                        <a href="#" class="btn-text">Read All Stories &rarr;</a>
+                    </div>
+            </section>
+
+            <section class="section-book" id="section-book">
+                <div class="row">
+                    <div class="book rellax" data-rellax-speed="4" data-rellax-percentage=".5">
+                        <div class="book__form">
+                            <form action="MAILTO:tasingamertwo@gmail.com" method="POST" enctype="text/plain" class="form">
+                                <div class="u-margin-bottom-medium">
+                                    <!-- ^This is a simple, re-usable, utility class(es). -->
+                                    <h2 class="heading-secondary">
+                                        Start planning now
+                                    </h2>
+                                </div>
+
+                                <div class="form__group">
+                                    <input name="User" type="text" class="form__input" id="name" placeholder="Full Name" required>
+                                    <label for="name" class="form__label">Full Name</label>
+                                </div>
+
+                                <div class="form__group">
+                                    <input name="Mail" type="email" class="form__input" id="email" placeholder="Email Address" required>
+                                    <label for="email" class="form__label">Email Address</label>
+                                </div>
+
+                                <div class="form__group u-margin-bottom-medium">
+                                    <div class="form__radio-group">
+                                        <input name="Budget" value="Low" type="radio" id="small" class="form__radio-input" name="size">
+                                        <label for="small" class="form__radio-label">
+                                            <span class="form__radio-button"></span>
+                                            Low budget
+                                        </label>
+                                    </div>
+                                    <div class="form__radio-group">
+                                        <input name="Budget" value="High" type="radio" id="large" class="form__radio-input" name="size">
+                                        <label for="large" class="form__radio-label">
+                                            <span class="form__radio-button"></span>
+                                            High budget
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="form__group">
+                                    <button type="Submit" value="Send" class="btn btn--green">Next step &rarr;</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+        </main>
+
+        <footer class="footer">
+            <div class="footer__logo-box rellax" data-rellax-speed="1.5" data-rellax-percentage=".5">
+
+                <!-- RESPONSIVE IMAGES -->
+                <!-- Art Direction -->
+                <a href="https://dribbble.com/zmndesigns">
+                    <picture class="footer__logo">
+                        <source srcset="img/tasinzaman-illustration.svg 1x, img/tasinzaman-illustration.svg 2x" 
+                            media="(max-width: 37.5em)">
+                        <!-- Responsive Images- Density switching. -->                                      <!-- In case browser doesn't understand srcset etc etc. -->
+                        <img srcset="img/tasinzaman-illustration.svg 1x, img/tasinzaman-illustration.svg 2x" alt="Full logo" src="img/tasinzaman-illustration.svg">
+                    </picture>
+                </a>
+
+            </div>
+
+            <div class="row rellax" data-rellax-speed="1.8" data-rellax-percentage=".5">
+                <div class="col-1-of-2">
+                    <div class="footer__navigation">
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="https://www.linkedin.com/in/tasin-zaman/" class="footer__link">LinkedIn</a></li>
+                            <li class="footer__item"><a href="https://github.com/ZmnTasin" class="footer__link">GitHub</a></li>
+                            <li class="footer__item"><a href="https://dribbble.com/zmndesigns" class="footer__link">Dribble</a></li>
+                            <li class="footer__item"><a href="https://www.freelancer.com/u/JechtBlade" class="footer__link">Freelancer</a></li>
+                            <li class="footer__item"><a href="https://www.fiverr.com/tasinzmn?up_rollout=true" class="footer__link">Fiverr</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <p class="footer__copyright">
+                        All Logo design and illustrations are property of Tasin Zaman and may not be used. &copy;<br>This is a Re-designed and Upgraded website by <a href="https://www.linkedin.com/in/tasin-zaman/" class="footer__link">Tasin Zaman</a>. This was inspired by one of <a href="https://codingheroes.io/" class="footer__link">Jonas Schmedtmann</a>'s web-design projects from his brilliant course on <a href="https://www.udemy.com/course/advanced-css-and-sass/" class="footer__link">Advanced CSS Artitechture and SASS</a>.<br>I can Actually be contacted using the <a href="#section-book" class="footer__link">Form</a> above.<br>I'm available for freelance work.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <div class="popup" id="popup">
+            <a href="#section-tours" class="popup__clickout">&nbsp;</a>
+            <div class="popup__content">
+                <div class="popup__left">
+                    <!-- <img src="img/tasin-zaman.jpg" alt="Tour photo" class="popup__img"> -->
+                    <img src="img/mustafa.jpg" alt="Tour photo" class="popup__img">
+                </div>
+
+                <div class="popup__right">
+                    <a href="#section-tours" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Start Booking Now</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
+                    <div class="popup__text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Egestas purus viverra accumsan in. Duis ut
+                            diam quam nulla porttitor massa id. Massa vitae tortor condimentum lacinia quis vel eros. Malesuada fames ac turpis
+                            egestas. Duis at consectetur lorem donec massa sapien faucibus. Eget magna fermentum iaculis eu non diam phasellus
+                            vestibulum. Vestibulum morbi blandit cursus risus. Lectus quam id leo in vitae turpis. Non arcu risus quis varius quam.
+                            Amet consectetur adipiscing elit pellentesque.
+                        </p>
+                    </div>
+                    <a href="#" class="btn btn--green">Book Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- <section class="grid-text">
+            
+            <div class="row">
+                
+                <div class="col-1-of-2">
+                    Col 1 of 2
+                </div>
+                <div class="col-1-of-2">
+                    Col 1 of 2
+                </div>
+            
+            </div>
+
+            <div class="row">
+            
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+            
+            </div>
+
+            <div class="row">
+            
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-2-of-3">
+                    Col 2 of 3
+                </div>
+                
+            </div>
+
+            <div class="row">
+            
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+            
+            </div>
+
+            <div class="row">
+            
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-2-of-4">
+                    Col 2 of 4
+                </div>
+
+            </div>
+
+            <div class="row">
+            
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-3-of-4">
+                    Col 3 of 4
+                </div>
+           
+            </div>
+        
+        </section> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+        <script src="index.js" charset="utf-8"></script>
+
+        <!-- Parallax Effect- Relax JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.11.0/rellax.min.js"></script>
+        <script>
+
+            var rellax = new Rellax('.rellax');
+        
+        </script>
+        
+    </body>
+</html>

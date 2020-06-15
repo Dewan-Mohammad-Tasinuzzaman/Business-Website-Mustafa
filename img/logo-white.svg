@@ -1,0 +1,35 @@
+<svg id="MustafaLogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="142" height="148" viewBox="0 0 142 148">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #14ffec;
+      }
+
+      .cls-2, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="309.781" y1="288.063" x2="379" y2="412.937" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#949494"/>
+      <stop offset="1" stop-color="#5a5a5a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="362.781" y1="288.063" x2="432" y2="412.937" xlink:href="#linear-gradient"/>
+  </defs>
+  <rect id="Rounded_Rectangle_4" data-name="Rounded Rectangle 4" class="cls-1" y="142" width="106" height="6" rx="3" ry="3"/>
+  <path id="Rounded_Rectangle_3_copy_2" data-name="Rounded Rectangle 3 copy 2" class="cls-2" d="M310.425,292.063L325.232,286l34.862,85.139C360.3,371.65,379.511,414.791,379,415H362c-0.511.209-17.429-36.908-17.638-37.419l-34.483-84.214A1,1,0,0,1,310.425,292.063Z" transform="translate(-290 -286)"/>
+  <rect id="Rounded_Rectangle_2" data-name="Rounded Rectangle 2" class="cls-3" width="35" height="129" rx="3" ry="3"/>
+  <path id="Rounded_Rectangle_3_copy" data-name="Rounded Rectangle 3 copy" class="cls-4" d="M363.425,292.063L378.232,286l34.862,85.139C413.3,371.65,432.511,414.791,432,415H415c-0.511.209-17.429-36.908-17.638-37.419l-34.483-84.214A1,1,0,0,1,363.425,292.063Z" transform="translate(-290 -286)"/>
+  <rect id="Rounded_Rectangle_2_copy" data-name="Rounded Rectangle 2 copy" class="cls-3" x="53" width="35" height="129" rx="3" ry="3"/>
+</svg>
