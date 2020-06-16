@@ -475,7 +475,6 @@ ALSO
 
 /* What this does is make 1rem = 10px, to make life easier. */
 html {
-  scroll-behavior: smooth;
   /* font-size: 10px; */
   /* 10px is 62.5% of 16px (default browser font-size) */
   font-size: 62.5%; }
@@ -502,13 +501,13 @@ body {
   color: #fff; }
 
 ::-webkit-scrollbar {
-  width: 1.7rem; }
+  width: 1.3rem; }
 
 ::-webkit-scrollbar-thumb {
   background-color: #14ffec;
   margin: .5rem;
-  border-radius: .6rem;
-  border: solid 0.2rem #fff; }
+  border-radius: .3rem;
+  border: solid 0.2rem #212121; }
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #81fff4; }
