@@ -48,27 +48,32 @@
 
 $(document).ready(function() {
 
-    //CheckBox-Nav Collapse on Click
-    $(".navigation__link").click(function () {
-        $(".navigation__checkbox").prop("checked", false);
-    })
+    if (Modernizr.touch) {
+
+    }
+    else {
+        //CheckBox-Nav Collapse on Click
+        $(".navigation__link").click(function () {
+            $(".navigation__checkbox").prop("checked", false);
+        })
 
 
-    //SCROLL ANIMATION  
-    //*SEE HTML*
+        //SCROLL ANIMATION  
+        //*SEE HTML*
 
-    // Smooth-Scrolling
-    $(function () {
-        $("body").niceScroll({
-            cursorcolor: "#14ffec",
-            cursorwidth: "1rem",
-            cursorborder: "none",
-            cursorborderradius: "2px",
-            scrollspeed: 300,
-            mousescrollstep: 60,
-            background: "#212121"
+        // Smooth-Scrolling
+        $(function () {
+            $("body").niceScroll({
+                cursorcolor: "#14ffec",
+                cursorwidth: "1rem",
+                cursorborder: "none",
+                cursorborderradius: "2px",
+                scrollspeed: 300,
+                mousescrollstep: 60,
+                background: "#212121"
+            });
         });
-    });
+    }
 
 });
 
