@@ -48,18 +48,17 @@
 
 $(document).ready(function() {
 
+    //CheckBox-Nav Collapse on Click
+    $(".navigation__link").click(function () {
+        $(".navigation__checkbox").prop("checked", false);
+    })
+
     if (Modernizr.touch) {
 
     }
     else {
-        //CheckBox-Nav Collapse on Click
-        $(".navigation__link").click(function () {
-            $(".navigation__checkbox").prop("checked", false);
-        })
-
-
         //SCROLL ANIMATION  
-        //*SEE HTML*
+        //*SEE HTML* *None rn- Only CSS Smooth*
 
         // Smooth-Scrolling
         $(function () {
