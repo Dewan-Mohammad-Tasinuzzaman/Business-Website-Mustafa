@@ -45,13 +45,12 @@
 
 // VERSION - 2
 
+//CheckBox-Nav Collapse on Click
+$(".navigation__link").click(function () {
+    $(".navigation__checkbox").prop("checked", false);
+})
 
 $(document).ready(function() {
-
-    //CheckBox-Nav Collapse on Click
-    $(".navigation__link").click(function () {
-        $(".navigation__checkbox").prop("checked", false);
-    })
 
     if (Modernizr.touch) {
 
