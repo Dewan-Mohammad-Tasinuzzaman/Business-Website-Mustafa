@@ -29,6 +29,7 @@ ALSO
 
 /* What this does is make 1rem = 10px, to make life easier. */
 html {
+  scroll-behavior: smooth;
   /* font-size: 10px; */
   /* 10px is 62.5% of 16px (default browser font-size) */
   font-size: 62.5%; }
@@ -928,7 +929,7 @@ p {
   top: 0;
   right: 0;
   z-index: 1500;
-  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.8s cubic-bezier(0.86, 0, 0.07, 1);
   opacity: 0;
   width: 0; }
 
