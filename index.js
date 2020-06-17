@@ -50,28 +50,28 @@ $(".navigation__link").click(function () {
     $(".navigation__checkbox").prop("checked", false);
 })
 
-$(document).ready(function() {
+// $(document).ready(function() {
 
-    if (Modernizr.touch) {
+//     if (Modernizr.touch) {
 
-    }
-    else {
-        //SCROLL ANIMATION  
-        //*SEE HTML* *None rn- Only CSS Smooth*
+//     }
+//     else {
+//         //SCROLL ANIMATION  
+//         //*SEE HTML* *None rn- Only CSS Smooth*
 
-        // Smooth-Scrolling
-        $(function () {
-            $("body").niceScroll({
-                cursorcolor: "#14ffec",
-                cursorwidth: "1rem",
-                cursorborder: "none",
-                cursorborderradius: "2px",
-                scrollspeed: 300,
-                mousescrollstep: 60,
-                background: "#212121"
-            });
-        });
-    }
+//         // Smooth-Scrolling
+//         $(function () {
+//             $("body").niceScroll({
+//                 cursorcolor: "#14ffec",
+//                 cursorwidth: "1rem",
+//                 cursorborder: "none",
+//                 cursorborderradius: "2px",
+//                 scrollspeed: 300,
+//                 mousescrollstep: 60,
+//                 background: "#212121"
+//             });
+//         });
+//     }
 
-});
+// });
 
