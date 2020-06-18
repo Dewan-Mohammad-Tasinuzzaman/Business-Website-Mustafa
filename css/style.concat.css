@@ -493,6 +493,9 @@ body {
   background-color: #212121;
   box-sizing: border-box; }
 
+.rellax {
+  transition: all .3s ease-out; }
+
 ::-moz-selection {
   background-color: #14ffec;
   color: #fff; }
